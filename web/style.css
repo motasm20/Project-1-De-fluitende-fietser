@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 50px;
+}
+
+button{
+    cursor: pointer;
+}
+.page_naam{
+    text-decoration: none;
+}
+
+.page_active {
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* home pagina */
+
+/* nav */
+
+nav {
+    background-color: rgb(0, 0, 139);
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+}
+
+nav .links {
+    display: flex;
+    gap: 2rem;
+}
+
+nav .toggel_btn {
+    background-color: rgb(0, 0, 139);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* header */
+
+header  {
+    color: rgb(255, 255, 255);
+}
+
+.header_container,
+.header_container div {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(173, 216, 230);
+    align-items: center;
+    height: 60px;
+}
+
+header input {
+    border-radius: 5px;
+}
+
+.openingstijden-melding {
+    background-color: #fffffe;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.openingstijden-container{
+    display: flex;
+    gap: 10px;
+}
+
+.openingstijden-info {
+    border-radius: 60px;
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*dropdown nav */
+
+.dropdown {
+    background-color: rgb(0, 0, 139);
+    position: absolute;
+    height: 0px;
+    top: 110px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.dropdown.open {
+    height: auto;
+
+}
+
+.dropdown li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* home content */
+
+.container {
+    position: relative;
+    width: 40%;
+    left: 30%;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+.column img {
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    position: relative;
+    width: 40%;
+    left: 30%;
+}
+
+/* het images verbergen */
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.grote_img {
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+.prev {
+    z-index: 1;
+    left: 0;
+}
+
+
+.next {
+    z-index: 1;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* het nummer van de afbeeldingen */
+.numbertext {
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+/* container */
+.caption-container {
+    text-align: center;
+    padding: 2px 16px;
+    color: rgb(0, 0, 0);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* de kliene fotos onder de grote foto */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+/* footer */
+footer,
+footer a {
+    background-color: rgb(173, 216, 230);
+    color: rgb(255, 255, 255);
+}
+
+.fiets_container img {
+    width: 70px;
+    height: auto;
+    position: relative;
+}
+
+.logos {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.S_M_logo img {
+    width: 40px;
+}
+
+/* store pagina */
+.product {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.container_store {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.container_product {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_product:hover .overlay {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.tekst_store_pruducten {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.tekst_store_pruducten p {
+    background-color: rgb(173, 216, 230);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 2px;
+
+}
+
+.container_store button {
+    background-color: rgb(45, 73, 213);
+}
+
+/* stylen van de shop fotos */
+.overlay {
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(2px);
+    overflow: hidden;
+    height: 80%;
+}
+
+#product_btns {
+    display: flex;
+    gap: 40px;
+}
+
+/* popup overlay */
+.popup-img {
+    width: 100%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 3%;
+    min-width: 3%;
+}
+
+.productclass-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    z-index: 3;
+    width: 70%;
+    height: 70%;
+    backdrop-filter: blur(40px);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    padding: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: 0.4s, 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+
+/* verhuur pagina */
+#bike-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#bike-table th,
+#bike-table td {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+.tb-img {
+    width: 100%;
+}
+
+.img-cl-tb {
+    width: 200px;
+}
+
+.bike-table-container {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tb-container1 {
+    width: 20%;
+    display: grid;
+    grid-column: 1 / 3;
+}
+
+.tb-container2 {
+    width: 60%;
+    display: grid;
+    align-items: center;
+    grid-column: 2 / 3;
+}
+
+.tb-container3 {
+    width: 20%;
+    display: grid;
+    grid-column: 3 / 3;
+}
+
+.tb-container2 button, .product_btns button {
+    
+    padding: 10px;
+    font-size: 16px;
+}
+
+.zijkant-imgs-verhuur {
+    width: 100%;
+}
+
+.zijkant-imgs-verhuur img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Contact Form pagina */
+.Container_Contact {
+    display: grid;
+    justify-content: center;
+    row-gap: 40px;
+    margin: 20px 20px 20px 20px;
+}
+
+.Contact_formulier {
+    background-color: #563838;
+    color: white;
+    padding: 10%;
+    text-align: center;
+}
+
+.input_bericht {
+    height: 200px;
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    outline: none;
+    word-wrap: break-word;
+
+}
+
+.inputs_contact {
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    height: 50px;
+    outline: none;
+}
+
+.btn_Contact:active {
+    background-color: #b64d4d;
+    border-color: #b64d4d;
+    border: 50px;
+}
+
+.btn_Contact {
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(39, 20, 36);
+    margin-top: 10%;
+    height: 50px;
+    width: 200px;
+    color: white;
+}
+
+.contact_grid {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 0 20px;
+    width: 500px;
+}
+
+.Container_openingstijden {
+    display: grid;
+    justify-content: center;
+}
+
+.contact_gegevens h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+.adress-table td,
+.adress-table table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.Openingstijden-table :first-child {
+    column-gap: 200px;
+   
+    text-align: left;
+}
+
+.Openingstijden-table :last-child{
+    text-align: right;
+
+    width: 100%;
+    padding: 2px;
+}
+
+/* over ons pagina */
+.tekstblok {
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px 20% 40px 20%;
+    text-align: center;
+}
+
+.over-ons-lijst, .tekstblok h2, .tekstblok p {
+text-align: left;
+}
+
+#historische-foto{
+    margin: 20px 0 20px 0;
+    width: 30rem;
+}
+
+/* BUCO opdracht */
+
+.new-page-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.new-page-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff; /* Kleur aanpassen indien nodig */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.new-page-button:hover {
+    background-color: #0056b3; /* Kleur aanpassen indien nodig */
+}
+
+.container_BUCO {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* responsive maken */
+@media (max-width:500px) {
+
+    .grid_container_fotos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container_store {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .Container_Contact {
+        grid-column: 2 /9;
+        row-gap: 0px;
+    }
+}
+
+@media (min-width:500px) {
+
+    .grid_container_fotos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container_store {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Container_Contact {
+        grid-column: 2 /9;
+        row-gap: 0px;
+    }
+}
+
+@media (min-width:768px) {
+
+    .grid_container_fotos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container_store {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Container_Contact {
+        grid-column: 2 /9;
+        row-gap: 30px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+}
+
+@media (min-width:1200px) {
+    .container_store {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .tekst_store_pruducten {
+        font-size: 20px;
+    }
+
+    .Container_Contact {
+        grid-column: 3 / 8;
+    }
+}
+
+/*nav slider */
+@media(max-width:768px) {
+    nav .links {
+        display: none;
+    }
+
+    nav .toggel_btn {
+        display: block;
+    }
+
+    .dropdown {
+        display: block;
+    }
+}

@@ -1,0 +1,64 @@
+1:Pelikaan Carry On Lady:elektrisch:geschikt voor zakelijk en prive:dames:transport:Pelikaan:nieuw:zwart:769,00:28 Inch 53 cm 3V V-Brakes:9,99
+2:Allegra voorwielmotor:elektrisch:geschikt voor zakelijk en prive:dames:stads:Stella:nieuw:zwart:999,00:frameraat S (Lichaamslengte 1,62m - 1,73m):12,49
+3:Gazelle Orange C7+ HMB 2020:elektrisch:geschikt voor zakelijk en prive:heren:stads:Gazelle:nieuw:Blauw:2199,00:frameraat 53cm(1.66cm-1.77cm):8,99
+4:Gazelle CityGo C7:niet elektrisch:geschikt voor zakelijk en prive:heren:Gazelle:stads:nieuw:meerdere:679,00:wielmaat 28 inches:15
+
+Fietsinformatie:
+ID 1:
+
+Naam: Pelikaan Carry On Lady
+Elektrisch: Ja
+Prive/Zakelijk: Geschikt voor beide
+Dames/Heren/Kind: Dames
+Soort: Transport
+Merk: Pelikaan
+Nieuw/2e Hands: Nieuw
+Kleur(en): Zwart
+Prijs: €769,00
+Opmerkingen: 28 Inch 53 cm 3V V-Brakes
+Huurprijs per dag: €9,99
+
+
+ID 2:
+
+Naam: Allegra voorwielmotor
+Elektrisch: Ja
+Prive/Zakelijk: Geschikt voor beide
+Dames/Heren/Kind: Dames
+Soort: Stads
+Merk: Stella
+Nieuw/2e Hands: Nieuw
+Kleur(en): Zwart
+Prijs: €999,00
+Opmerkingen: Frameraat S (Lichaamslengte 1,62m - 1,73m)
+Huurprijs per dag: €12,49
+
+
+ID 3:
+
+Naam: Gazelle Orange C7+ HMB 2020
+Elektrisch: Ja
+Prive/Zakelijk: Geschikt voor beide
+Dames/Heren/Kind: Heren
+Soort: Stads
+Merk: Gazelle
+Nieuw/2e Hands: Nieuw
+Kleur(en): Blauw
+Prijs: €2199,00
+Opmerkingen: Frameraat 53cm(1.66cm-1.77cm)
+Huurprijs per dag: €8,99
+
+
+ID 4:
+
+Naam: Gazelle CityGo C7
+Elektrisch: Nee (niet elektrisch)
+Prive/Zakelijk: Geschikt voor beide
+Dames/Heren/Kind: Heren
+Soort: Stads
+Merk: Gazelle
+Nieuw/2e Hands: Nieuw
+Kleur(en): Meerdere
+Prijs: €679,00
+Opmerkingen: Wielmaat 28 inches
+Huurprijs per dag: €15,00

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>De fluitende fietser</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <a class="logo left" href="Home.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+            <h3>De fluitende fietser</h3>
+            <div>
+                <form action="php.php" method="post">
+                    <input type="text" placeholder="Zoek..." required>
+                    <input type="submit" value="zoeken">
+                </form>
+                <img class="logo" src="img/winkel-wagen.png" alt="winkel-wagen">
+            </div>
+        </div>
+
+        <nav>
+            <ul class="links">
+                <li><a href="Home.html" class="page_naam">Home</a></li>
+                <li><a href="Fietsen.html" class="page_naam">Fietsen</a></li>
+                <li><a href="Verhuur.html" class="page_naam">Verhuur</a></li>
+                <li><a href="Contact.html" class="page_naam">Contact</a></li>
+                <li><a href="Openingstijden.html" class="page_naam">Openingstijden</a></li>
+                <li><a href="over_ons.html" class="page_naam">over ons</a></li>
+            </ul>
+
+            <div class="toggel_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul class="dropdown">
+                <li><a href="Home.html" class="page_naam">Home</a></li>
+                <li><a href="Fietsen.html" class="page_naam">Fietsen</a></li>
+                <li><a href="Verhuur.html" class="page_naam">Verhuur</a></li>
+                <li><a href="Contact.html" class="page_naam">Contact</a></li>
+                <li><a href="Openingstijden.html" class="page_naam">Openingstijden</a></li>
+                <li><a href="over_ons.html" class="page_naam">over ons</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="productid-details1" class="productclass-details">
+            <!-- Voeg een gemeenschappelijke class toe aan de sluitknoppen -->
+            <button class="close-btn" onclick="togglePopup('productid-details1')">&times;</button>
+            <div>
+                <img class="popup-img" src="img/fietsen/Pelikaan_Carry_On_Lady.jpg" alt="fiets Pelikaan Carry On Lady">
+            </div>
+            <div>
+                <p>Naam: Pelikaan Carry On Lady</p><br>
+                <p>Elektrisch: Ja</p><br>
+                <p>Prive/Zakelijk: Geschikt voor beide</p><br>
+                <p>Dames/Heren/Kind: Dames</p><br>
+                <p>Soort: Transport</p><br>
+                <p>Merk: Pelikaan</p><br>
+                <p>Nieuw/2e Hands: Nieuw</p><br>
+                <p>Kleur(en): Zwart</p><br>
+                <p>Prijs: €769,00</p><br>
+                <p>Opmerkingen: 28 Inch 53 cm 3V V-Brakes</p><br>
+                <p>Huurprijs per dag: €9,99</p><br>
+            </div>
+        </div>
+
+        <div id="productid-details2" class="productclass-details">
+            <!-- Voeg een gemeenschappelijke class toe aan de sluitknoppen -->
+            <button class="close-btn" onclick="togglePopup('productid-details2')">&times;</button>
+            <div>
+                <img class="popup-img" src="img/fietsen/Stella_Allegra_voorwielmotor.jpg"
+                    alt=" fiets Stella Allegra voorwielmotor">
+            </div>
+            <div>
+                <p>Naam: Allegra voorwielmotor</p><br>
+                <p>Elektrisch: Ja</p><br>
+                <p>Prive/Zakelijk: Geschikt voor beide</p><br>
+                <p>Dames/Heren/Kind: Dames</p><br>
+                <p>Soort: Stads</p><br>
+                <p>Merk: Stella</p><br>
+                <p>Nieuw/2e Hands: Nieuw</p><br>
+                <p>Kleur(en): Zwart</p><br>
+                <p>Prijs: €999,00</p><br>
+                <p>Opmerkingen: Frameraat S (Lichaamslengte 1,62m - 1,73m)</p><br>
+                <p>Huurprijs per dag: €12,49</p><br>
+            </div>
+        </div>
+
+        <div id="productid-details3" class="productclass-details">
+            <!-- Voeg een gemeenschappelijke class toe aan de sluitknoppen -->
+            <button class="close-btn" onclick="togglePopup('productid-details3')">&times;</button>
+            <div>
+                <img class="popup-img" src="img/fietsen/Gazelle_Orange_C7.jpg" alt=" fiets Gazelle Orange C7">
+            </div>
+            <div>
+                <p>Naam: Gazelle Orange C7+ HMB 2020</p><br>
+                <p>Elektrisch: Ja</p><br>
+                <p>Prive/Zakelijk: Geschikt voor beide</p><br>
+                <p>Dames/Heren/Kind: Heren</p><br>
+                <p>Soort: Stads</p><br>
+                <p>Merk: Gazelle</p><br>
+                <p>Nieuw/2e Hands: Nieuw</p><br>
+                <p>Kleur(en): Blauw</p><br>
+                <p>Prijs: €2199,00</p><br>
+                <p>Opmerkingen: Frameraat 53cm(1.66cm-1.77cm)</p><br>
+                <p>Huurprijs per dag: €8,99</p><br>
+            </div>
+        </div>
+
+        <div id="productid-details4" class="productclass-details">
+            <!-- Voeg een gemeenschappelijke class toe aan de sluitknoppen -->
+            <button class="close-btn" onclick="togglePopup('productid-details4')">&times;</button>
+            <div>
+                <img class="popup-img" src="img/fietsen/Gazelle_CityGo_C7.jpg" alt=" fiets Gazelle CityGo C7">
+            </div>
+            <div>
+                <p>Naam: Gazelle CityGo C7</p><br>
+                <p>Elektrisch: Nee (niet elektrisch)</p><br>
+                <p>Prive/Zakelijk: Geschikt voor beide</p><br>
+                <p>Dames/Heren/Kind: Heren</p><br>
+                <p>Soort: Stads</p><br>
+                <p>Merk: Gazelle</p><br>
+                <p>Nieuw/2e Hands: Nieuw</p><br>
+                <p>Kleur(en): Meerdere</p><br>
+                <p>Prijs: €679,00</p><br>
+                <p>Opmerkingen: Wielmaat 28 inches</p><br>
+                <p>Huurprijs per dag: €1</p><br>
+            </div>
+        </div>
+
+        <div class="container_store">
+            <div class="container_product">
+                <img class="product" src="img/fietsen/Pelikaan_Carry_On_Lady.jpg" alt="Pelikaan_Carry_On_Lady">
+                <div class="overlay">
+                    <div class="tekst_store_pruducten">
+                        <p>Pelikaan Carry On Lady</p><br>
+                        <p>Dames</p><br>
+                        <p>€769,00</p>
+                    </div>
+                </div>
+                <div class="product_btns">
+                    <button>Add to Cart</button>
+                    <button onclick="togglePopup('productid-details1')">Show more</button>
+                </div>
+            </div>
+
+            <div class="container_product">
+                <img class="product" src="img/fietsen/Stella_Allegra_voorwielmotor.jpg"
+                    alt="Stella_Allegra_voorwielmotor">
+                <div class="overlay">
+                    <div class="tekst_store_pruducten">
+                        <p>Allegra voorwielmotor</p><br>
+                        <p>Dames</p><br>
+                        <p>€999,00</p>
+                    </div>
+                </div>
+                <div class="product_btns">
+                    <button>Add to Cart</button>
+                    <button onclick="togglePopup('productid-details2')">Show more</button>
+                </div>
+            </div>
+
+            <div class="container_product">
+                <img class="product" src="img/fietsen/Gazelle_Orange_C7.jpg" alt="Gazelle_Orange_C7">
+                <div class="overlay">
+                    <div class="tekst_store_pruducten">
+                        <p>Gazelle Orange C7+ HMB 2020</p><br>
+                        <p>Heren</p><br>
+                        <p>€2199,00</p>
+                    </div>
+                </div>
+                <div class="product_btns">
+                    <button>Add to Cart</button>
+                    <button onclick="togglePopup('productid-details3')">Show more</button>
+                </div>
+            </div>
+
+            <div class="container_product">
+                <img class="product" src="img/fietsen/Gazelle_CityGo_C7.jpg" alt="Gazelle_CityGo_C7">
+                <div class="overlay">
+                    <div class="tekst_store_pruducten">
+                        <p>Gazelle CityGo C7</p><br>
+                        <p>Heren</p><br>
+                        <p>€679,00</p>
+                    </div>
+                </div>
+                <div class="product_btns">
+                    <button>Add to Cart</button>
+                    <button onclick="togglePopup('productid-details4')">Show more</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="new-page-buttons">
+            <a href="BUCO.html" class="new-page-button">Hulp bij het verkrijgen van fietsen</a>
+        </div>
+        <ul class="logos">
+            <li><a href="over_ons.html">over ons</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="mailto:info@fluitendefietser.nl">Stuur ons een mail</a></li>
+            <li><a href="Data/algemene-voorwaarden-BOVAG-2021.pdf" download>algemene voorwaarden</a></li>
+            <li><a class="S_M_logo" href="https://www.facebook.com/profile.php?id=100091288983948&locale=nl_NL"><img
+                        src="img/facebook.png" alt="facebook-logo"></a></li>
+            <li><strong>88599665 | BTW NL999888492Z09 | © 2023 Fluitende Fietser</strong></li>
+        </ul>
+        <div class="fiets_container">
+            <img id="fiets" src="img/bewegnde-fiets.png" alt="bewegnde-fiets">
+        </div>
+    </footer>
+</body>
+
+</html>

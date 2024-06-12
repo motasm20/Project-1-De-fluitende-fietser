@@ -1,0 +1,12 @@
+Aanhangfiets:€20,00 / dag
+Bakfiets:€35,00 / dag
+Driewielfiets:€30,00 / dag
+Elektrische fiets:€30,00 / dag
+Kinderfiets:€15,00 / dag
+Ligfiets:€45,00 / dag
+Oma fiets:€12,50 / dag
+Racefiets:€15,00 / dag
+Speed pedelec:€15,00 / dag
+Stadsfiets:€12,50 / dag
+Vouwfiets:€10,00 / dag
+Zitfiets:€15,00 / dag

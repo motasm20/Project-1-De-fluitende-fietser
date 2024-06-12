@@ -1,0 +1,174 @@
+﻿<Window x:Class="fluitende_fietser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:fluitende_fietser"
+        
+    mc:Ignorable="d"
+                        Title="Fietsverhuur 'De Fluitende Fietser' – Facturering" Height="450" Width="800">
+
+    <Grid Background="#FF2660C1">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Row="1" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="1.5*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Fietsen:" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="1" Text="Verzekeringen:" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="2" Text="Services:" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="3" Text="Aantal dagen:" VerticalAlignment="Center"/>
+                <ComboBox x:Name="comboBoxFietsen" Grid.Column="1" >
+                    <ComboBoxItem Content="Aanhangfiets  	 	€ 20,00/dag"/>
+                    <ComboBoxItem Content="Bakfiets 	 	 	€ 35,00/dag"/>
+                    <ComboBoxItem Content="Driewielfiets  	 	€ 30,00/dag"/>
+                    <ComboBoxItem Content="Elektrische fiets 	€ 30,00/dag"/>
+                    <ComboBoxItem Content="Kinderfiets 	 	 	€ 15,00/dag"/>
+                    <ComboBoxItem Content="Ligfiets 	 	 	€ 45,00/dag"/>
+                    <ComboBoxItem Content="Oma fiets 	 	 	€ 12,50/dag"/>
+                    <ComboBoxItem Content="Racefiets 	 	 	€ 15,00/dag"/>
+                    <ComboBoxItem Content="Speed pedelec 	 	€ 15,00/dag"/>
+                    <ComboBoxItem Content="Stadsfiets 	 	 	€ 12,50/dag"/>
+                    <ComboBoxItem Content="Vouwfiets 	 	 	€ 10,00/dag"/>
+                    <ComboBoxItem Content="Zitfiets 	 	 	€ 15,00/dag"/>
+                </ComboBox>
+                <ComboBox x:Name="comboBoxVerzekeringen" Grid.Column="1" Grid.Row="1" VerticalContentAlignment="Center">
+                    <ComboBoxItem Content="Beschadigingen 	 	€ 5,00/dag"/>
+                    <ComboBoxItem Content="Diefstal 	 	 	€ 10,00/dag, eigen risico"/>
+                    <ComboBoxItem Content="Rechtsbijstand 	 	€ 5,00/dag"/>
+                    <ComboBoxItem Content="Ongevallen 	 	 	€ 2,50/dag"/>
+                </ComboBox>
+                <ComboBox x:Name="comboBoxServices" Grid.Column="1" Grid.Row="2" VerticalContentAlignment="Center">
+                    <ComboBoxItem Content="Ophaalservice  	 	  € 15,00/dag"/>
+                    <ComboBoxItem Content="Regenpak 	 	 	  € 10,00/dag"/>
+                    <ComboBoxItem Content="Lunchpakket basis 	  € 12,50/dag"/>
+                    <ComboBoxItem Content="Lunchpakket uitgebreid € 20,00/dag"/>
+                </ComboBox>
+                <TextBox x:Name="AantalDagenTextBox" Grid.Column="1" Text="1" Grid.Row="3" VerticalContentAlignment="Center" Background="White"></TextBox>
+                <Button MaxHeight="50" Grid.ColumnSpan="2" Grid.Row="5" Click="Bestellen_Click">Bestellen</Button>
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="1">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+                <Image Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Row="1" Source="/fluitende fietser.jpg"/>
+                <Button MaxHeight="60" Grid.Row="4" Click="Afrekenen_Click">Afrekenen</Button>
+                <Button MaxHeight="60" Grid.Column="1" Grid.Row="4" Click="VolgendeKlant_Click">Volgende Klant</Button>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="1" Background="#FF99BDF7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="3"/>
+                <RowDefinition/>
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold">Bestelling:</TextBlock>
+            <Border Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Background="White" BorderBrush="#FF99BDF7"></Border>
+            <ListBox x:Name="BestelOverzichtListBox" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Background="#FF99BDF7"></ListBox>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="5"/>
+                </Grid.RowDefinitions>
+                <Button MaxWidth="200" Grid.Row="1" Grid.Column="1" Background="#FF2660C1" Click="RekenMachine_Click" >Rekenmachine</Button>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="40"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="2" />
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="BedragTeBetalenlabel" Text="Te betalen bedrag: €" Grid.ColumnSpan="2" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" />
+
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="40"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="5" />
+                </Grid.RowDefinitions>
+                <Button MaxWidth="200" Grid.ColumnSpan="2" Grid.Row="2" Grid.Column="1" Background="#FF2660C1" Click="Verwijderen_Click">Verwijderen</Button>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="10"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition/>
+
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+            <ProgressBar Grid.Column="1" Grid.Row="1" x:Name="Tijdlijn" Value="{Binding TimeRemaining}" Maximum="60"/>
+        </Grid>
+    </Grid>
+</Window>
+
