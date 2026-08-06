@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fluitende fietser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db8693d3e26b049fcecc261bf88f3e23438636a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("fluitende fietser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fluitende fietser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

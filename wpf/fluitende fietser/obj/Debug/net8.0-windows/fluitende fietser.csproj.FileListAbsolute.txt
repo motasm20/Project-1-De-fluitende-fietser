@@ -45,3 +45,28 @@ C:\Users\motas\Desktop\school 2023-2024\7- Project 1\wpf\fluitende fietser\obj\D
 C:\Users\motas\Desktop\school 2023-2024\7- Project 1\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.pdb
 C:\Users\motas\Desktop\school 2023-2024\7- Project 1\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.genruntimeconfig.cache
 C:\Users\motas\Desktop\school 2023-2024\7- Project 1\wpf\fluitende fietser\obj\Debug\net8.0-windows\ref\fluitende fietser.dll
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\bin\Debug\net8.0-windows\fluitende fietser.exe
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\bin\Debug\net8.0-windows\fluitende fietser.deps.json
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\bin\Debug\net8.0-windows\fluitende fietser.runtimeconfig.json
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\bin\Debug\net8.0-windows\fluitende fietser.dll
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\bin\Debug\net8.0-windows\fluitende fietser.pdb
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\RekenMachine.baml
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\Afrekenen.g.cs
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\RekenMachine.g.cs
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser_MarkupCompile.cache
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser_MarkupCompile.lref
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\Afrekenen.baml
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.g.resources
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.AssemblyInfoInputs.cache
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.AssemblyInfo.cs
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.csproj.CoreCompileInputs.cache
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.sourcelink.json
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.dll
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\refint\fluitende fietser.dll
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.pdb
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\fluitende fietser.genruntimeconfig.cache
+C:\Users\motas\source\repos\motasm20\Project-1-De-fluitende-fietser\wpf\fluitende fietser\obj\Debug\net8.0-windows\ref\fluitende fietser.dll
